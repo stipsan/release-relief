@@ -1,0 +1,24 @@
+
+{
+  "name": "release-relief",
+  "description": "It's easy to burnout when you're being an Open Source maintainer. Reducing chores around releasing helps with the fatigue.",
+  "repository": "https://github.com/stipsan/release-relief.git",
+  "author": "Stian Didriksen <stipsan@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "changelog:preview": "sr-changelog",
+    "changelog:commit": "sr-changelog commit",
+    "semantic-release": "semantic-release pre && npm publish && semantic-release post"
+  },
+  "release": {
+    "analyzeCommits": "semantic-release-tamia/analyzeCommits",
+    "verifyConditions": "condition-circle",
+    "generateNotes": "semantic-release-tamia/generateNotes",
+    "verifyRelease": "semantic-release-tamia/verifyRelease"
+  },
+  "dependencies": {
+    "condition-circle": "^1.5.0",
+    "semantic-release": "^8.0.3",
+    "semantic-release-tamia": "^1.1.1"
+  }
+}
