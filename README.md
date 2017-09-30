@@ -1,4 +1,4 @@
-# release-relief
+# release-relief &middot; [![CircleCI Status](https://img.shields.io/circleci/project/github/stipsan/release-relief.svg?style=flat-square)](https://circleci.com/gh/stipsan/release-relief) [![npm version](https://img.shields.io/npm/v/release-relief.svg?style=flat-square)](https://www.npmjs.com/package/release-relief) [![semantic-release](https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg?style=flat-square)](https://github.com/semantic-release/semantic-release)
 
 It's easy to burnout when you're being an Open Source maintainer. Reducing chores around releasing helps with the fatigue.
 
