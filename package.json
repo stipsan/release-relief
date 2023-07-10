@@ -19,6 +19,6 @@
   "dependencies": {
     "condition-circle": "^1.5.0",
     "semantic-release": "^8.0.3",
-    "semantic-release-tamia": "^1.1.1"
+    "semantic-release-tamia": "^2.0.0"
   }
 }
